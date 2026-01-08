@@ -19,21 +19,21 @@ export const getStyleAdvice = async (history: Message[]): Promise<string> => {
       contents: [
         {
           role: 'user',
-          parts: [{ text: `You are AURA's virtual style assistant. AURA is a minimalist, high-end clothing brand. Your tone is sophisticated, helpful, and concise. You help customers with sizing, outfit pairing, and general fashion trends related to minimalist aesthetic. Our collection includes: Essential Tees, Tech Outerwear, Italian Wool Coats, Raw Denim, and Merino Knits.
+          parts: [{ text: `You are RepsApparel's virtual style assistant. RepsApparel is a high-energy lifestyle and streetwear brand for people with an active, high-intensity lifestyle. Your tone is energetic, motivating, and knowledgeable, like a trusted workout partner who's also a style expert. You help customers with sizing for an athletic fit, creating outfits for the gym and the street, and choosing the best gear for performance. Our collection includes: Essential Boxy Tees, Tech Fleece Hoodies, Minimalist Windbreakers, and performance-focused accessories.
           
           User message: ${lastUserMessage}` }]
         }
       ],
       config: {
-        systemInstruction: "You are the AURA brand ambassador and style assistant. Provide elegant, concise fashion advice.",
+        systemInstruction: "You are the RepsApparel virtual coach and style expert. Provide energetic, practical, and motivational style advice.",
         temperature: 0.7,
         topP: 0.8,
       }
     });
 
-    return response.text || "I'm sorry, I'm having trouble processing that right now. How can I help you with your AURA wardrobe today?";
+    return response.text || "I'm sorry, I'm having trouble processing that right now. How can I help you get geared up with RepsApparel today?";
   } catch (error) {
     console.error("Gemini API Error:", error);
-    return "I apologize, my systems are currently taking a fashion break. Please try again in a moment.";
+    return "I apologize, my systems are currently taking a quick water break. Please try again in a moment.";
   }
 };
