@@ -6,7 +6,7 @@ import Hero from './components/Hero.jsx';
 import ProductCard from './components/ProductCard.jsx';
 import ProductModal from './components/ProductModal.jsx';
 import CartSidebar from './components/CartSidebar.jsx';
-import LiveChat from './components/LiveChat.jsx';
+import StyleAssistant from './components/StyleAssistant.jsx';
 import Footer from './components/Footer.jsx';
 import { PRODUCTS } from './constants.jsx';
 
@@ -60,7 +60,7 @@ const HomePage = ({ onProductClick, categoryFilter, currency }) => {
       {!categoryFilter && (
         <section className="w-[95%] mx-auto h-[600px] relative overflow-hidden rounded-[3rem] group">
           <img 
-            src="https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&q=80&w=2000" 
+            src="https://images.unsplash.com/photo-1544441893-675973e-31985?auto=format&fit=crop&q=80&w=2000" 
             className="w-full h-full object-cover transition-transform duration-[3s] group-hover:scale-110"
             alt="Feature"
           />
@@ -124,7 +124,7 @@ const App = () => {
         </main>
 
         <Footer />
-        <LiveChat />
+        <StyleAssistant />
 
         {/* Global Modals */}
         {selectedProduct && (
