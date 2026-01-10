@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation, useParams } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import ProductCard from './components/ProductCard.jsx';
@@ -149,7 +149,6 @@ const App = () => {
 };
 
 // Simple wrapper to access route params
-import { useParams } from 'react-router-dom';
 const CategoryRouteWrapper = ({ onProductClick, currency }) => {
   const { cat } = useParams();
   return <HomePage onProductClick={onProductClick} categoryFilter={cat} currency={currency} />;
