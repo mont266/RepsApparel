@@ -9,7 +9,7 @@ import CartSidebar from './components/CartSidebar';
 import LiveChat from './components/LiveChat';
 import Footer from './components/Footer';
 import { PRODUCTS } from './constants.tsx';
-import { Product, CartItem, Category, Currency } from './types';
+import { Product, CartItem, Currency } from './types';
 
 // Scroll to top on route change helper
 const ScrollToTop = () => {

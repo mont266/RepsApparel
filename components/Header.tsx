@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ShoppingBag, Search, Menu, X, Zap, Globe } from 'lucide-react';
+import { ShoppingBag, Search, Menu, X, Zap } from 'lucide-react';
 import { NAVIGATION } from '../constants.tsx';
 import { Currency } from '../types';
 

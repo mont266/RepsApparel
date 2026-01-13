@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { MessageCircle, X, Send, User, Zap, Sparkles } from 'lucide-react';
+import { MessageCircle, X, Send, Zap, Sparkles } from 'lucide-react';
 
 interface LocalMessage {
   id: number;
