@@ -27,7 +27,7 @@ export const PRODUCTS: Product[] = [
     name: 'Structure Wool Coat',
     category: Category.Outerwear,
     price: 340,
-    image: 'https://images.unsplash.com/photo-1539571480139-1c6523d38641?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&q=80&w=800',
     description: 'Italian-milled wool blend with a double-breasted closure. A timeless statement piece.',
     colors: ['Camel', 'Charcoal'],
     sizes: ['S', 'M', 'L']
