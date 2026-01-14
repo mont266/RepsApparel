@@ -17,7 +17,7 @@ export const PRODUCTS: Product[] = [
     name: 'Minimalist Windbreaker',
     category: Category.Outerwear,
     price: 120,
-    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1514313883311-135a49a2a7b0?auto=format&fit=crop&q=80&w=800',
     description: 'Technical water-resistant shell designed for the urban commuter. Sleek silhouettes meet function.',
     colors: ['Midnight', 'Forest'],
     sizes: ['M', 'L', 'XL']
@@ -37,7 +37,7 @@ export const PRODUCTS: Product[] = [
     name: 'Raw Denim Trouser',
     category: Category.Essentials,
     price: 180,
-    image: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1604176354204-926873782855?auto=format&fit=crop&q=80&w=800',
     description: 'Japanese selvedge denim with a straight leg cut. Ages beautifully over time.',
     colors: ['Indigo'],
     sizes: ['30', '32', '34', '36']
@@ -47,7 +47,7 @@ export const PRODUCTS: Product[] = [
     name: 'Merino Knit Scarf',
     category: Category.Accessories,
     price: 85,
-    image: 'https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1610253463324-3c8707e15e0a?auto=format&fit=crop&q=80&w=800',
     description: 'Ultra-soft merino wool knitted in a chunky rib pattern for maximum warmth.',
     colors: ['Cream', 'Navy', 'Grey'],
     sizes: ['OS']
@@ -57,7 +57,7 @@ export const PRODUCTS: Product[] = [
     name: 'Tech Fleece Hoodie',
     category: Category.NewArrivals,
     price: 110,
-    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1621953255364-285e6f3f7734?auto=format&fit=crop&q=80&w=800',
     description: 'Standard fit hoodie with hidden side-seam pockets and a structured hood.',
     colors: ['Dusty Pink', 'Black', 'Olive'],
     sizes: ['S', 'M', 'L', 'XL']
