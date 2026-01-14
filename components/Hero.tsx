@@ -54,9 +54,9 @@ const Hero: React.FC = () => {
           <div className="absolute -top-4 -right-4 lg:-top-10 lg:-right-10 z-0 aspect-[4/5] w-full rounded-[3rem] border-4 border-purple-500/20 -rotate-3 lg:-rotate-6" />
           
           {/* Floating Tag */}
-          <div className="absolute bottom-4 -left-4 lg:top-1/2 lg:-right-12 z-20 glass p-6 rounded-3xl shadow-xl animate-float">
+          <div className="absolute bottom-4 -left-4 lg:top-1/2 lg:-right-12 z-20 glass p-6 lg:p-4 rounded-3xl shadow-xl animate-float">
             <p className="text-xs font-black uppercase tracking-tighter text-zinc-400 mb-1">Trending Now</p>
-            <p className="text-2xl lg:text-xl font-black text-reps-gradient">#RepsNation</p>
+            <p className="text-2xl lg:text-lg font-black text-reps-gradient">#RepsNation</p>
           </div>
         </div>
       </div>
