@@ -4,7 +4,7 @@ import { ArrowRight, Play, Sparkles } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-[95vh] w-full overflow-hidden bg-zinc-50 flex items-center">
+    <section className="relative w-full overflow-hidden bg-zinc-50 flex items-center lg:h-[95vh] py-16 lg:py-0">
       {/* Dynamic Background Elements */}
       <div className="absolute top-20 right-[10%] w-96 h-96 bg-purple-400/20 blur-[100px] rounded-full animate-pulse" />
       <div className="absolute bottom-10 left-[5%] w-[30rem] h-[30rem] bg-pink-400/20 blur-[120px] rounded-full animate-float" />
@@ -43,18 +43,18 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Interactive Visual Element */}
-        <div className="relative hidden lg:block">
-          <div className="relative z-10 aspect-[4/5] rounded-[3rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] rotate-3 hover:rotate-0 transition-transform duration-700">
+        <div className="relative mt-16 lg:mt-0">
+          <div className="relative z-10 aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl lg:shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] lg:rotate-3 lg:hover:rotate-0 transition-transform duration-700">
             <img 
               src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1000" 
               alt="Model Hero"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute -top-10 -right-10 z-0 aspect-[4/5] w-full rounded-[3rem] border-4 border-purple-500/20 -rotate-6" />
+          <div className="absolute -top-4 -right-4 lg:-top-10 lg:-right-10 z-0 aspect-[4/5] w-full rounded-[3rem] border-4 border-purple-500/20 -rotate-3 lg:-rotate-6" />
           
           {/* Floating Tag */}
-          <div className="absolute top-1/2 -right-12 z-20 glass p-6 rounded-3xl shadow-xl animate-float">
+          <div className="absolute bottom-4 -left-4 lg:top-1/2 lg:-right-12 z-20 glass p-6 rounded-3xl shadow-xl animate-float">
             <p className="text-xs font-black uppercase tracking-tighter text-zinc-400 mb-1">Trending Now</p>
             <p className="text-2xl font-black text-reps-gradient">#RepsNation</p>
           </div>
