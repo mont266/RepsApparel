@@ -1,6 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Youtube, ArrowUpRight } from 'lucide-react';
-import TiktokIcon from './TiktokIcon';
+import { Instagram, Facebook, ArrowUpRight, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -14,7 +13,7 @@ const Footer: React.FC = () => {
               The next generation of high-intensity apparel. Sustainable, digital-native, and built for those who never miss a rep.
             </p>
             <div className="flex flex-wrap gap-4">
-              {[Facebook, Instagram, Youtube, TiktokIcon].map((Icon, i) => (
+              {[Instagram, Youtube, Facebook].map((Icon, i) => (
                 <a key={i} href="#" className="w-14 h-14 bg-white border border-zinc-200 rounded-2xl flex items-center justify-center hover:bg-reps-gradient hover:text-white hover:border-transparent hover:scale-110 transition-all shadow-sm">
                   <Icon size={24} />
                 </a>
