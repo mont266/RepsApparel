@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Interactive Visual Element */}
-        <div className="relative mt-16 lg:mt-0">
+        <div className="relative mt-16 lg:mt-0 hidden lg:block">
           <div className="relative z-10 aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl lg:shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] lg:rotate-3 lg:hover:rotate-0 transition-transform duration-700">
             <img 
               src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1000" 

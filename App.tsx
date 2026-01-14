@@ -1,4 +1,5 @@
 
+
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
@@ -30,10 +31,10 @@ const HomePage: React.FC<{
     : PRODUCTS;
 
   return (
-    <div className="space-y-24 pb-24">
+    <div className="space-y-8 lg:space-y-24 pb-24">
       {!categoryFilter && <Hero />}
       
-      <section className="max-w-7xl mx-auto px-6 pt-12">
+      <section className="max-w-7xl mx-auto px-6 lg:pt-12">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 space-y-4 md:space-y-0">
           <div>
             <h2 className="text-4xl font-black tracking-tight uppercase font-outfit">
